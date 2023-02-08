@@ -793,7 +793,7 @@ hr{
 	margin-top:100px;
 }
 
-p a{
+p a, .comitee-list a{
 	color:#03A11F;
 	border-bottom:1px solid #03A11F;
 	transition:ease .3s;
