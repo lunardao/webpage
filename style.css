@@ -1,8 +1,10 @@
+/*
 *, *::before, *::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -299,6 +301,7 @@ a {
   position: inherit;
   width: 100%;
   z-index: 3;
+  background: #09000E;	
 }
 
 .header ul {
@@ -313,7 +316,7 @@ a {
   display: block;
   text-decoration: none;
 }
-
+/*
 .header li a:hover,
 .header .menu-btn:hover {
 }
@@ -910,6 +913,7 @@ td{
 /*Articles page styling*/
 .latest-article-abstract {
 	text-align: left;
+	font-size: 20px;
 }
 
 .latest-article-block{
@@ -957,6 +961,9 @@ td{
 	font-weight: 400;
 	color: #03A11F;
 	text-align: left;
+	line-height: 95%;
+	letter-spacing: 0em;
+	font-size: 24px;
 }
 
 .article-latest-date {
@@ -969,6 +976,7 @@ td{
 
 .article-abstract {
 	text-align: left;
+	font-size: 18px;
 }
 
 .articles {
@@ -1003,6 +1011,8 @@ td{
 	color: #03A11F;
 	margin-top: 2%;
 	text-align: left;
+	line-height: 95%;
+	letter-spacing: 0em;
 }
 
 @media (max-width: 1200px){
@@ -1294,9 +1304,9 @@ h2,blockquote,.manifesto-title{
 		margin-right:20px;
 	}
 
-menu{
-	margin-top:-50px;
-}
+	menu{
+		margin-top:-50px;
+	}
 
 	#footer{
 		margin-top:80px;
@@ -1357,9 +1367,6 @@ menu{
 		padding:25px;
 	}
 
-	.article-text .information{
-	}
-
 	.article-text p{
 		font-size:1.3em;
 		line-height:1.6em;
@@ -1397,11 +1404,11 @@ menu{
 	.mt{
 	width:22vw;
 	max-width:22vw;
-}
+	}
 
-.mt img{
-	width:15vw;
-	max-width:15vw;
-}
+	.mt img{
+		width:15vw;
+		max-width:15vw;
+	}
 
 }
