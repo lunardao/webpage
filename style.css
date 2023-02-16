@@ -301,7 +301,7 @@ a {
   position: inherit;
   width: 100%;
   z-index: 3;
-  background: #09000E;	
+  background: #09000E;
 }
 
 .header ul {
@@ -346,7 +346,7 @@ width:100%;
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: left;
+  /*float: left;*/
   padding:24px 18px;
   position: relative;
   user-select: none;
