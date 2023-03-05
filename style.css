@@ -831,9 +831,18 @@ p a:hover{
 	transition:ease .3s;
 	border-bottom:none;
 }
-
-
-
+/* SUPPORT */
+#support{
+	text-align: center;
+}
+.support-currency {
+	background-color: #0C1116;
+	padding-top: 1rem;
+}
+.support-button {
+	background-color: #0C1116;
+	border: 1px solid #3E89B4;
+}
 .question a:hover{
 	color:#03A11F;
 }
