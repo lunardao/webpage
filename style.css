@@ -968,18 +968,18 @@ td{
 .article-latest-image {
         border-color: rgb(131, 122, 108);
         display: block;
-        max-width: 65%;
+        max-width: 55%;
         float: left;
 }
 
 .article-latest-image img{
         border: 1px solid #3B3B86;
-        margin-top: 0;
+        margin-top: 0px;
 }
 
 .article-latest-content {
         display: inline-block;
-        max-width: 350px;
+        max-width: 45%;
 }
 
 .article-latest-content h3{
