@@ -576,6 +576,18 @@ menu a{
 	z-index:5;
 }
 
+.app{
+	color:#AC9AB7;
+	background-color:#09000E;
+	border-radius:2px;
+	border:1px solid #AC9AB7;
+	padding:12px;
+}
+
+.square-list li{
+	list-style-type: square;
+}
+
 .cn:hover{
 	color:#03A11F;
 	border:1px solid #03A11F;
@@ -920,7 +932,7 @@ hr{
 	margin-top:100px;
 }
 
-p a,.comitee-list a{
+p a,.comitee-list a, li a{
 	color:#03A11F;
 	text-decoration:underline;
 	transition:ease .3s;
