@@ -1,5 +1,5 @@
 
-**LunarDAO architecture is based on [Moloch V3](https://github.com/Moloch-Mystics/Baal) design, ran by [DAOhaus](https://daohaus.club/moloch) and customized to fit LunarDAO [governance](https://github.com/lunardao/dao).**
+**LunarDAO architecture is based on [Moloch V3](https://github.com/Moloch-Mystics/Baal) design, deployed by [DAOhaus](https://daohaus.club/moloch) and customized to fit LunarDAO [governance](https://github.com/lunardao/dao).**
 
 <!---BUTTONS:--->
 
