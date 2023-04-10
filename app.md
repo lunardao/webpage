@@ -9,12 +9,12 @@
 ## How to Join
 
 - It is recommended to [anonymize your assets](https://wiki.lunardao.net/anonymizing_assets.html) before joining the DAO.
-- Go to [The Staking page](https://join.lunardao.net). The entry is permissionless, but only opened between **April 16th, 17:00 UTC and April 30th, 17:00 UTC**.
+- Go to [the Staking page](https://join.lunardao.net). The entry is permissionless, but only opened between **April 16th, 17:00 UTC and April 30th, 17:00 UTC**.
 - **$VOX** represent the members share of the treasury as well as their voting power (voting power can be delegated as well).
 - $VOX (shares) are non-transferable.
 - Everyone's entry price is the same: 1 ETH = 100 $VOX (- 0.25% admin fees).
 - The minimum tribute in order to join the DAO as a Squad member is 0.1 ETH which equals 10 $VOX (shares).  
-- Admin/management fee on entry of 0.25% is paid to the [Stewards' (core-team) account](https://app.safe.global/home?safe=eth:0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD) from every tribute in the form of $VOX for the [DAO operations](https://github.com/lunardao/dao#stewards).
+- Admin/management fee on entry of 0.25% is paid to the Stewards' (core-team) [account](https://app.safe.global/home?safe=eth:0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD) from every tribute in the form of $VOX for the [DAO operations](https://github.com/lunardao/dao#stewards).
 
 ## Governance TL;DR
 
