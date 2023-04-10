@@ -436,6 +436,7 @@ width:100%;
 	background:#121A21;
 	border:1px solid #6060C6;
 	transition:ease .2s;
+	margin-inline: 3rem;
 }
 
 .support a{
@@ -1422,6 +1423,7 @@ h2,blockquote,.manifesto-title{
 		background:#09000E;
 		border:0;
 		transition:ease .2s;
+		margin-inline: 3rem;
 	}
 
 	.support:hover{
