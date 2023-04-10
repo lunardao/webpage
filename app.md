@@ -1,6 +1,11 @@
 
 **LunarDAO architecture is based on [Moloch V3](https://github.com/Moloch-Mystics/Baal) design, ran by [DAOhaus](https://daohaus.club/moloch) and customized to fit LunarDAO [governance](https://github.com/lunardao/dao).**
 
+<!---BUTTONS:--->
+
+[JOIN](https://join.lunardao.net) [DAO](https://admin.daohaus.fun/#/molochv3/0x1/0x747da68facd1459e9d9b8f928418da30769d3ba1)
+
+
 ## How to Join
 
 - It is recommended to [anonymize your assets](https://wiki.lunardao.net/anonymizing_assets.html) before joining the DAO.
@@ -10,10 +15,6 @@
 - Everyone's entry price is the same: 1 ETH = 100 $VOX (- fees).
 - The minimum tribute in order to join the DAO as a Squad member is 0.1 ETH which equals 10 $VOX (shares).  
 - Admin/management fee on entry of 0.25% is paid to the [Stewards' (core-team) account](https://app.safe.global/home?safe=eth:0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD) from every tribute in the form of $VOX for the [DAO operations](https://github.com/lunardao/dao#stewards).
-
-<!---BUTTONS:--->
-
-[JOIN](https://join.lunardao.net) [DAO](https://admin.daohaus.fun/#/molochv3/0x1/0x747da68facd1459e9d9b8f928418da30769d3ba1)
 
 ## Governance TL;DR
 
