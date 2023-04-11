@@ -7,7 +7,11 @@
     <link rel="icon" type="image/svg" href="img/icon.png" />
 
     <link rel="stylesheet" href="style.css">
-
+    <style>
+        p {
+            text-align: left
+        }
+    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -120,22 +124,20 @@
             href="https://app.safe.global/settings/setup?safe=eth:0x59f77dc848c2e45b5954975ee1969e7a22fa25f6">LunarDAO
             treasury</a> is a Gnosis Safe with two signers of which only one is needed for an execution (1/2). The two
         signers are:</p>
-    <div class="numbered-list">
     <ol>
-        <li><a href="https://github.com/lunardao/dao#squad">LunarDAO Squad</a>: a <a
+        <li>1. <a href="https://github.com/lunardao/dao#squad">LunarDAO Squad</a>: a <a
                 href="https://github.com/lunardao/dao#moloch-v3">Moloch V3 DAO</a>, <a
                 href="https://etherscan.io/address/0x747DA68Facd1459E9D9b8f928418DA30769D3Ba1">Contract</a></li>
-        <li>LunarDAO Sentinels: <a
+        <li>2. LunarDAO Sentinels: <a
                 href="https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef">Gnosis safe
                 (5/8) multi-sig</a></li>
     </ol>
-    </div>
     <p>In this setup all the proposals are submitted, voted upon and (after grace period) executed on-chain without any
         Sentinel interaction. Only in the case of a <a href="https://github.com/lunardao/dao#sentinels">malicious
             proposal</a>, the Sentinels can step in and reject the proposal. Five Sentinel members must sign in their <a
             href="https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef">safe</a> in order to
         make a veto execution in the LunarDAO treasury.</p>
-    <p><img alt="" src="https://github.com/lunardao/dao/raw/master/pic/diagram_treasury.png" /></p>
+    <p class="fullsize"><img alt="" src="https://github.com/lunardao/dao/raw/master/pic/diagram_treasury.png" /></p>
 
     </div>
 
