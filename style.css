@@ -21,7 +21,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: block;type="i"
 }
 body {
 	line-height: 1;
@@ -158,6 +158,9 @@ body{
 	margin-top:0;
 }
 
+.numbered-list ol{
+	list-style: number;
+}
 /* Articles Index */
 
 	.article{
@@ -809,8 +812,9 @@ a{
   text-align:center;
 }
 
+
 img{
-	max-width:90%;
+	max-width:100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

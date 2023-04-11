@@ -96,7 +96,7 @@
     <p>This is the initial governance setup for LunarDAO (changes can be <a
             href="https://admin.daohaus.fun/#/molochv3/0x1/0x747da68facd1459e9d9b8f928418da30769d3ba1/proposals">proposed</a>
         any time):</p>
-    <ul  class="square-list">
+    <ul class="square-list">
         <li><strong>LIP (LunarDAO Improvement Proposal):</strong> A proposal is created and shared with the community.
             Use the template in <a href="https://github.com/lunardao/lip/blob/main/lip-0001.md">LIP-0001</a>.</li>
         <li><strong>Forum discussions:</strong> A thread is created on the <a
@@ -109,7 +109,8 @@
             with pushing the execution button.
             - If treasury unrelated: Stewards update the documents.</li>
     </ul>
-    <hr>
+    <div id="landscape-m1">
+    </div>
     <h4>Veto Agent</h4>
     <p>LunarDAO deployed a <a href="https://github.com/lunardao/dao#sentinels">Sentinel committe</a> (a <a
             href="https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef">multi-sig safe</a>)
@@ -119,6 +120,7 @@
             href="https://app.safe.global/settings/setup?safe=eth:0x59f77dc848c2e45b5954975ee1969e7a22fa25f6">LunarDAO
             treasury</a> is a Gnosis Safe with two signers of which only one is needed for an execution (1/2). The two
         signers are:</p>
+    <div class="numbered-list">
     <ol>
         <li><a href="https://github.com/lunardao/dao#squad">LunarDAO Squad</a>: a <a
                 href="https://github.com/lunardao/dao#moloch-v3">Moloch V3 DAO</a>, <a
@@ -127,6 +129,7 @@
                 href="https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef">Gnosis safe
                 (5/8) multi-sig</a></li>
     </ol>
+    </div>
     <p>In this setup all the proposals are submitted, voted upon and (after grace period) executed on-chain without any
         Sentinel interaction. Only in the case of a <a href="https://github.com/lunardao/dao#sentinels">malicious
             proposal</a>, the Sentinels can step in and reject the proposal. Five Sentinel members must sign in their <a
