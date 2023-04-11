@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LunarDAO</title>
+
+    <link rel="icon" type="image/svg" href="img/icon.png" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Open Graph for social networks -->
+    <meta name="description" content="LunarDAO – App">
+    <meta name="keywords" content="lunarpunk, privacy, dao, app, organisation">
+    <meta property="og:title" content="LunarDAO – App">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="img/lunardao.png">
+    <meta property="og:url" content="app.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@lunarpunksquad">
+    <meta name="twitter:creator" content="@lunarpunksquad">
+    <meta name="twitter:title" content="LunarDAO">
+    <meta name="twitter:description" content="LunarDAO">
+    <meta name="twitter:image:src" content="https://lunardao.net/img/lunardao.png">
+
+</head>
+
+<body>
+    <menu class="header">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+
+            <li><a href="manifesto.html">Manifesto</a></li>
+            <li><a href="https://wiki.lunardao.net">Wiki</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="https://github.com/lunardao/dao">Whitepaper</a></li>
+            <li class="support"><a href="support.html">Support</a></li>
+            <li class="last support"><a href="app.html">Join DAO</a></li>
+        </ul>
+    </menu>
+
+    <a href="https://wiki.lunardao.net/manifesto_tc.html" class="cn">中文</a>
+
+    <a href="index.html">
+        <div id="header">
+        </div>
+    </a>
+
+    <h2 class="manifesto-title">How to Join</h2>
+    <hr>
+    <h4><strong>LunarDAO architecture is based on <a href="https://github.com/Moloch-Mystics/Baal">Moloch V3</a> design,
+            deployed by <a href="https://daohaus.club/moloch">DAOhaus</a> and customized to fit LunarDAO <a
+                href="https://github.com/lunardao/dao">governance</a>.</strong></h4>
+
+
+    <!---BUTTONS:--->
+    <div class="socials">
+
+        <span class="button support" style="box-shadow: 0px 0px 50px #34243C;"><a
+                href="https://join.lunardao.net">JOIN</a></span>
+        <span class="button support" style="box-shadow: 0px 0px 50px #34243C;"><a
+                href="https://admin.daohaus.fun/#/molochv3/0x1/0x747da68facd1459e9d9b8f928418da30769d3ba1">DAO</a></span>
+
+    </div>
+    <ul class="square-list">
+        <li>It is recommended to <a href="https://wiki.lunardao.net/anonymizing_assets.html">anonymize your assets</a>
+            before joining the DAO.</li>
+        <li>Go to <a href="https://join.lunardao.net">the Staking page</a>. The entry is permissionless, but only opened
+            between <strong>April 16th, 17:00 UTC and April 30th, 17:00 UTC</strong>.</li>
+        <li><strong>$VOX</strong> represent the members share of the treasury as well as their voting power (voting
+            power can be delegated as well).</li>
+        <li>$VOX (shares) are non-transferable.</li>
+        <li>Everyone's entry price is the same: 1 ETH = 100 $VOX (- 0.25% admin fees).</li>
+        <li>The minimum tribute in order to join the DAO as a Squad member is 0.1 ETH which equals 10 $VOX (shares).
+        </li>
+        <li>Admin/management fee on entry of 0.25% is paid to the Stewards' (core-team) <a
+                href="https://app.safe.global/home?safe=eth:0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD">account</a> from
+            every tribute in the form of $VOX for the <a href="https://github.com/lunardao/dao#stewards">DAO
+                operations</a>.</li>
+    </ul>
+
+    <hr>
+    <h4>Governance TL;DR</h4>
+    <p>Read LunarDAO <a href="https://wiki.lunardao.net">Manifesto</a> and the <a
+            href="https://github.com/lunardao/dao">whitepaper</a> to know more about LunarDAO: <a
+            href="https://github.com/lunardao/dao#mission">Mission</a>, <a
+            href="https://github.com/lunardao/dao#governance">Governance</a>, <a
+            href="https://github.com/lunardao/dao#lunardao-architecture">DAO architecture</a> and the smart contracts <a
+            href="https://github.com/lunardao/dao/blob/master/README.md#contracts">overview</a>. To learn about the
+        plans, check out the <a href="https://lunardao.net/roadmap.html">Roadmap</a>.</p>
+    <p>This is the initial governance setup for LunarDAO (changes can be <a
+            href="https://admin.daohaus.fun/#/molochv3/0x1/0x747da68facd1459e9d9b8f928418da30769d3ba1/proposals">proposed</a>
+        any time):</p>
+    <ul class="square-list">
+        <li><strong>LIP (LunarDAO Improvement Proposal):</strong> A proposal is created and shared with the community.
+            Use the template in <a href="https://github.com/lunardao/lip/blob/main/lip-0001.md">LIP-0001</a>.</li>
+        <li><strong>Forum discussions:</strong> A thread is created on the <a
+                href="https://forum.lunardao.net/c/proposals">forum</a>, where the LIP is discussed. The proposal should
+            be announced at least 7 days before voting.</li>
+        <li><strong>Voting:</strong> A proposal is submitted on-chain and the voting is opened for 72h.</li>
+        <li><strong>Grace Period:</strong> Follows voting for another 72h. Members can exit the DAO with their funds if
+            they don't want to be affected by the decision.</li>
+        <li><strong>Execution:</strong> Proposals are submitted on chain, hence the changes will apply automatically
+            with pushing the execution button.
+            - If treasury unrelated: Stewards update the documents.</li>
+    </ul>
+    <div id="landscape-m1">
+    </div>
+    <h4>Veto Agent</h4>
+    <p>LunarDAO deployed a <a href="https://github.com/lunardao/dao#sentinels">Sentinel committe</a> (a <a
+            href="https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef">multi-sig safe</a>)
+        as a veto agent. At the same time the DAO architecture itself is based on <a
+            href="https://github.com/lunardao/dao#moloch-v3">Moloch V3 primitive</a> with a full on-chain execution.
+        This contradiction is solved by a design where the main <a
+            href="https://app.safe.global/settings/setup?safe=eth:0x59f77dc848c2e45b5954975ee1969e7a22fa25f6">LunarDAO
+            treasury</a> is a Gnosis Safe with two signers of which only one is needed for an execution (1/2). The two
+        signers are:</p>
+    <div class="numbered-list">
+    <ol>
+        <li><a href="https://github.com/lunardao/dao#squad">LunarDAO Squad</a>: a <a
+                href="https://github.com/lunardao/dao#moloch-v3">Moloch V3 DAO</a>, <a
+                href="https://etherscan.io/address/0x747DA68Facd1459E9D9b8f928418DA30769D3Ba1">Contract</a></li>
+        <li>LunarDAO Sentinels: <a
+                href="https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef">Gnosis safe
+                (5/8) multi-sig</a></li>
+    </ol>
+    </div>
+    <p>In this setup all the proposals are submitted, voted upon and (after grace period) executed on-chain without any
+        Sentinel interaction. Only in the case of a <a href="https://github.com/lunardao/dao#sentinels">malicious
+            proposal</a>, the Sentinels can step in and reject the proposal. Five Sentinel members must sign in their <a
+            href="https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef">safe</a> in order to
+        make a veto execution in the LunarDAO treasury.</p>
+    <p><img alt="" src="https://github.com/lunardao/dao/raw/master/pic/diagram_treasury.png" /></p>
+
+    </div>
+
+    </div>
+    </div>
+
+    <footer></footer>
+
+
+</body>
+
+</html>

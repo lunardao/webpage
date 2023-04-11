@@ -21,7 +21,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: block;type="i"
 }
 body {
 	line-height: 1;
@@ -158,6 +158,9 @@ body{
 	margin-top:0;
 }
 
+.numbered-list ol{
+	list-style: number;
+}
 /* Articles Index */
 
 	.article{
@@ -436,6 +439,7 @@ width:100%;
 	background:#121A21;
 	border:1px solid #6060C6;
 	transition:ease .2s;
+	margin-inline: 3rem;
 }
 
 .support a{
@@ -574,6 +578,18 @@ menu a{
 	right:15px;
 	transition:ease .5s;
 	z-index:5;
+}
+
+.app{
+	color:#AC9AB7;
+	background-color:#09000E;
+	border-radius:2px;
+	border:1px solid #AC9AB7;
+	padding:12px;
+}
+
+.square-list li{
+	list-style-type: square;
 }
 
 .cn:hover{
@@ -796,8 +812,9 @@ a{
   text-align:center;
 }
 
+
 img{
-	max-width:90%;
+	max-width:100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -920,7 +937,7 @@ hr{
 	margin-top:100px;
 }
 
-p a,.comitee-list a{
+p a,.comitee-list a, li a{
 	color:#03A11F;
 	text-decoration:underline;
 	transition:ease .3s;
@@ -1410,6 +1427,7 @@ h2,blockquote,.manifesto-title{
 		background:#09000E;
 		border:0;
 		transition:ease .2s;
+		margin-inline: 3rem;
 	}
 
 	.support:hover{
