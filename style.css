@@ -1132,6 +1132,13 @@ td{
 				background:#0F0D1D;
 }
 
+.lighter-lunarpunk-background{
+	border-bottom:1px solid #5F5F92;
+	border-top:.5px solid #5F5F92;
+	padding:30px 0 40px 0;
+	background:#0F0D1D;
+	margin-bottom: 2rem;
+}
 /* Older articles */
 
 #older-articles-header{
