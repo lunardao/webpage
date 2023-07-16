@@ -366,7 +366,7 @@ p,h1,h2,h3,h4,blockquote,menu a,ul,ol,li{
   max-width:960px;
 }
 
-video{
+.video{
 	display:block;
 	width:760px;
 	max-width:100%;
