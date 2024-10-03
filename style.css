@@ -429,6 +429,13 @@ a {
 	margin-right:auto;
   transition: max-height .2s ease-out;
 }
+.menu__link {
+	margin-bottom: 0px;
+}
+
+.menu__buttons {
+	margin-top: 30px;
+}
 
 ul{
 width:100%;
