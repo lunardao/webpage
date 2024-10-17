@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LunarDAO</title>
+        <link rel="icon" type="image/svg" href="img/icon.png"/>
+        <link rel="stylesheet" href="/css/style.css">
+        <meta charset="utf-8">
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1"> <!-- Open Graph for social networks -->
+        <meta name="description" content="LunarDAO">
+        <meta name="keywords" content="lunarpunk, privacy, dao, organisation">
+        <meta property="og:title" content="LunarDAO">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="img/lunardao.png">
+        <meta property="og:url" content="https://lunardao.net/">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@lunarpunksquad">
+        <meta name="twitter:creator" content="@lunarpunksquad">
+        <meta name="twitter:title" content="Nym — The Evolution to a Private Internet">
+        <meta name="twitter:description" content="In this edition of Lunarpunk Views, we explore the innovative work of Nym, a project focused on evolving the internet and enhancing privacy.">
+        <meta name="twitter:image:src" content="https://lunardao.net/assets/img/lunarviews_nym.png">
+    </head>
+    <body>
+        <menu class="header">
+    <input class="menu-btn" type="checkbox" id="menu-btn"/>
+    <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span>
+    </label>
+    <ul class="menu menu__link">
+        <li>
+            <a href="/manifesto">Manifesto</a>
+        </li>
+        <li>
+            <a href="https://wiki.lunardao.net" target="_blank">Wiki</a>
+        </li>
+        <li>
+            <a href="/blog">Blog</a>
+        </li>
+        <li>
+            <a href="/community">Community</a>
+        </li>
+        <li>
+            <a href="https://github.com/lunardao/dao" target="_blank">Whitepaper</a>
+        </li>
+    </ul>
+    <ul class="menu menu__link">
+        <li>
+            <a href="https://wiki.lunardao.net/gateways.html" target="_blank">Infrastructure</a>
+        </li>
+        <li>
+            <a href="https://stats.lunardao.net/status/services" target="_blank">Dashboard</a>
+        </li>
+    </ul>
+    <ul class="menu menu__buttons">
+        <li class="support">
+            <a href="/support">Support</a>
+        </li>
+        <li class="last support">
+            <a href="/blog/24_10_03_darkfi_raise_guide_updated">Join DAO</a>
+        </li>
+    </ul>
+</menu>
+<a href="/">
+		<div id="header">
+	  </div>
+</a>
+        
+<article class="main-article">
+  <div class="container container--narrow flow">
+    <h1 >
+      Nym — The Evolution to a Private Internet
+    </h1>
+    <hr>
+    
+    
+
+    <blockquote>
+<p>Enjoy interviews with builders, projects, artists, authors and entrepreneurs that coincide with the lunarpunk movement. Get to know who is helping spearhead the future of privacy.</p>
+</blockquote>
+<hr>
+<h2>Nym — The Evolution to a Private Internet</h2>
+<p>In this edition of Lunarpunk Views, we explore the innovative work of <a href="https://nymtech.net/">Nym</a>, a project focused on evolving the internet and enhancing privacy. Learn about their origins in the cypherpunk and anarchist movements, their unique approach to protecting against large-scale network observation, and how they're contributing to the future of privacy in the digital realm.</p>
+<p><em>Note:</em> The following interview is paraphrased unless otherwise specified.</p>
+<hr>
+<h2>The Interview</h2>
+<ol>
+<li class="question">What was the motivation for starting Nym?</li>
+</ol>
+<p>We are coming from an anarchist background and have some roots from the cypherpunk movement. Nym is a group of talented people that developed around this problem of internet privacy.</p>
+<blockquote>
+<p class="quote">&quot;When the Snowden revelations came out, it was a big moment,&quot; says Jaya, a Core Team member at Nym. </p>
+</blockquote>
+<p>The overreach in surveillance problem became visible on a much larger scale after Snowden.<br>
+After this, Bitcoin began gaining more attention than ever before. We realized that blockchain had enabled the economic background needed to build Nym.</p>
+<ol start="2">
+<li class="question">How does Nym protocol differ from existing privacy solutions and what problem does it aim to solve?</li>
+</ol>
+<p>Nym solves a problem that not many other projects solve. Which is how to protect against an adversary that can watch the entire network and attack the ends of networks. Someone can see the patterns of communication. Geographical data, times... metadata. There is a very large scale of sophisticated data analysis.<br>
+Nym solves large scale network wide observation and removes metadata. We're working on the Layer 0 / network level.</p>
+<ol start="3">
+<li class="question">Can you explain the concept of the Nym mixnet and its role in enhancing privacy and security?</li>
+</ol>
+<p>The Nym Mixnet is a network that is comprised of 3 layers called Mix nodes. These nodes mix traffic and adds timing obfuscation.<br>
+On someone's device you have a Nym client which wraps each data packet in <a href="https://katzenpost.mixnetworks.org/docs/specs/sphinx.html">Sphinx encryption</a>.<br>
+No nodes can see anything other than where this packet needs to go. The packet then goes through a gateway. It is ensured that data packets are the same size. Lastly, packets are mixed to obfuscate the data.</p>
+<p>Nym is looking at optimizing Sphinx encryption to make it lighter.</p>
+<ol start="4">
+<li class="question">How does the $NYM token incentivize privacy and contribute to the sustainability and resilience of the mixnet?</li>
+</ol>
+<p>The $NYM token does is a few things:<br>
+The mixnet is decentralized and many uphold the integrity. In order to facilitate this, there are economic incentives. People can acquire $NYM tokens in various ways and use them to send traffic.<br>
+The mixnet mining pool rewards node operators with $NYM. Mixing traffic gets rewarded based on epochs. In every epoch, new nodes are selected based on their reputation for operating well and also for staking $NYM tokens on nodes that do a good job. Stakers receive a share of the rewards.<br>
+Mix node operators, stakers and gateways are the three components for the mixnet. Gateways check bandwidth credentials. Gateways are incentivized with a fee and get paid in $NYM.<br>
+Right now, the Mixnet is free to use for the end user. But this will change. In essence, $NYM is purely there to facilitate the economics of the network.</p>
+<ol start="5">
+<li class="question">Can you discuss the Nym Credentials and their use in enabling user control over their personal data?</li>
+</ol>
+<blockquote>
+<p class="quote">&quot;What we want is the ability for people to prove their right to use various services under   conditions that they have control over.&quot; — Jaya, Core Team member</p>
+</blockquote>
+<p>So Nym Mixnet is on the network layer. Nym Credentials, known as zk-nyms, addresses privacy on the application layer. The idea is that selective disclosure is better and seems to resonate more with people.<br>
+The way to think about this is:<br>
+The amount of logins people need to use is too many. We have big tech like Google and FB provide easy logins at expense to privacy. There are crazy cookie settings and personal data is the driving engine of a lot of companies.<br>
+Zk-nyms replace constant logins. Why do we need to provide all this identity information? You just need to prove your right to access.</p>
+<blockquote>
+<p class="quote">&quot;When we talk about access credentials... money and reputation systems will start to merge into new economics systems.&quot; — Jaya</p>
+</blockquote>
+<ol start="5">
+<li class="question">What does its evolution look like?</li>
+</ol>
+<p>First people will use zk-nyms to protect their privacy when paying to use the Nym Mixnet service. Next is the use case for general purpose online login systems. We've done lots of research also for use in e-cash systems.</p>
+<ol start="6">
+<li class="question">What are the challenges and limitations in implementing privacy infrastructure at scale, and how is Nym addressing them?</li>
+</ol>
+<p>The first challenge is having enough funding, talent and time to build this. Privacy is hard and the product must be easily usable. However, the Nym founders are top in their field and we are lucky enough to get strong funding.</p>
+<blockquote>
+<p class="quote">&quot;Most people's experience using open-source software is that it's not easy to use. Our approach there is to have on the one hand, integrated approaches into pre-existing apps.&quot; — Jaya</p>
+</blockquote>
+<p>Average people may not look to use a mixnet but there will be an end user-facing VPN type of app using Nym technologies. Nym Connect already enhances the privacy of certain apps.</p>
+<ol start="7">
+<li class="question">How do you see Nym protocol contributing to the future of privacy, the internet as a whole and the lunarpunk movement?</li>
+</ol>
+<blockquote>
+<p class="quote">&quot;What does it mean for the internet as a whole to solve the privacy problem? I think that starting from privacy as a default will trickle into how we use the internet along with AI.&quot; — Jaya</p>
+</blockquote>
+<p>Nym addresses the network layer problem. We shouldn't underestimate the impact of privacy on the internet. Everything has been built with a lack of privacy, this needs to change.</p>
+<p>The whole digital economy will transform.</p>
+<ol start="8">
+<li class="question">Can you share any notable partnerships or integrations that Nym has established in furthering its mission and goals?</li>
+</ol>
+<p>With Nym Connect you can use any applications that support <a href="https://www.bitcatcha.com/blog/socks5-proxy/">SOCKS5</a> — <a href="https://blockstream.com/green/">Blockstream Green</a>, <a href="https://electrum.org/#home">Electrum Wallet</a>, <a href="https://telegram.org/">Telegram</a> and <a href="https://keybase.io/">KeyBase</a>.</p>
+<p>We also have an internal team working on MetaMask integration. And we work with ChainSafe for validator privacy.</p>
+<hr>
+<h2>Bonus Questions</h2>
+<ol>
+<li class="question">Where does the name Nym come from?</li>
+</ol>
+<p>This word was used as a way to describe a name you would give yourself online to have a reputation in the cypherpunk community.</p>
+<ol start="2">
+<li class="question">Why hasn't something like Nym been built yet?</li>
+</ol>
+<p>The infrastructure just wasn't there yet.</p>
+<ol start="3">
+<li class="question">What is the main problem with VPNs?</li>
+</ol>
+<p><a href="https://blog.nymtech.net/vpns-tor-i2p-how-does-nym-compare-8576824617b8">The problem with VPNs</a> is that they are a trusted proxy meaning they can effectively de-anonymize you.</p>
+<hr>
+<h2>The Proliferation of Lunarpunk</h2>
+<p>Nym is a groundbreaking project that is revolutionizing internet privacy and security through its innovative mixnet and zk credentials systems. By addressing both network and application layer privacy issues, Nym has the potential to transform the digital economy and redefine the way we use the internet. Through strategic partnerships and integrations, Nym is steadily expanding its reach, playing a pivotal role in shaping the future of privacy and the lunarpunk movement. Stay tuned for more exciting insights in our Lunarpunk Views series.</p>
+
+    
+  </div>
+</article>
+        <footer class="site-footer">
+  <hr>
+    <a href="https://www.twitter.com/lunarpunksquad">
+      <span class="button" id="btt">Follow us on Twitter</span>
+    </a>
+    <a href="https://wiki.lunardao.net/ircd.html">
+      <span class="button" id="bt2">Join us on IRC</span>
+    </a>
+    <img src="/assets/img/footer.png" alt="Square dots making line">
+  </footer>
+    </body>
+</html>
